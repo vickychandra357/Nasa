@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 15px;
+    background-color: rgb(27, 27, 27);
+    color: rgb(21, 221, 31);
+}
+
+.container {
+    overflow-x: hidden;
+}
+
+h2{
+    margin: 10px auto;
+}
+
+#main-image-container {
+    display: flex;
+    gap: 20px;
+    border: 4px solid rgb(7, 81, 104);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px auto;
+}
+
+#current-image-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 4px solid rgb(230, 226, 7);
+    border-radius: 8px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.image {
+    width: 45%;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: large;
+}
+
+input{
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+    #main-image-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        border: 2px solid gainsboro;
+        border-radius: 5px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #main-image-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        border: 2px solid gainsboro;
+        border-radius: 5px;
+        padding: 15px;
+    }
+}
