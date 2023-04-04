@@ -44,7 +44,7 @@ h2{
 button{
     width: 80px;
     height: 30px;
-    border-radius: 6px;
+    border-radius: 10px;
     font-weight: 700;
     font-size: large;
 }
@@ -52,8 +52,12 @@ button{
 input{
     width: 150px;
     height: 30px;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 5px;
+}
+
+li{
+    color: white;
 }
 
 @media only screen and (max-width: 767px) {
