@@ -20,7 +20,7 @@ async function getCurrentImageOfTheDay() {
     try {
         // fetching data
         const response = await fetch(
-            `https://api.nasa.gov/planetary/apod?api_key=C69f7BH1LmhBm879s3dhajUu5sWCsLfWIBEXuJxN&date=${currentDate}`
+            `https://api.nasa.gov/planetary/apod?api_key=PICH4KoJitc8IR4KKPgJMFUtYEiyp2x4T0XckRU7&date=${currentDate}`
         )
         const data = await response.json()
         console.log(data)
@@ -65,7 +65,7 @@ searchForm.addEventListener("submit", (event) => {
 async function getImageOfTheDay() {
     // fetching data
     const response = await fetch(
-        `https://api.nasa.gov/planetary/apod?api_key=C69f7BH1LmhBm879s3dhajUu5sWCsLfWIBEXuJxN&date=${currentDate}`
+        `https://api.nasa.gov/planetary/apod?api_key=PICH4KoJitc8IR4KKPgJMFUtYEiyp2x4T0XckRU7&date=${currentDate}`
     )
     const data = await response.json()
     console.log(data)
